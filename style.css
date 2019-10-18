@@ -1,0 +1,20 @@
+@font-face {
+  font-family: Circular;
+  src: url(/assets/CircularPro-Book.otf) format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Circular;
+  src: url(/assets/CircularPro-Medium.otf) format("opentype");
+  font-weight: bold;
+}
+
+* { box-sizing: border-box }
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
