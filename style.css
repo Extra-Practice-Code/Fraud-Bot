@@ -18,3 +18,59 @@ body {
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: 'Circular', Helvetica, Arial, sans-serif;
+}
+
+#title-bar {
+  text-align: center;
+}
+
+#container {
+  width: 90%;
+  margin: 0px auto;
+}
+
+#messages {
+  width: 100%;
+  padding: 0 10px;
+}
+
+#sender {
+  width: 100%;
+  position: fixed;
+  display: inline-block;
+  left: 0;
+  bottom: 0;
+  background-color: grey;
+  height: 3rem;
+  padding: 0 10px;
+}
+
+#user_input {
+  width: 70%;
+  border-radius: 10px;
+  border: none;
+  height: 1.5rem;
+}
+
+#submit {
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  height: 1.5rem;
+  float: right;
+}
+
+.user-chat {
+  text-align: right;
+  display: block;
+  width: 100%;
+}
+
+.bot-chat {
+  display: block;
+  width: 60%;
+}

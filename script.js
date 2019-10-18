@@ -23,10 +23,18 @@ function startBot() {
   function chat() {
     let input = user_input.value
 
+    var messageArea = document.getElementById('messages')
 
+    var userMessage = document.createElement('p')
+    userMessage.setAttribute('class', 'user-chat')
+    userMessage.innerHTML = input
+    messageArea.appendChild(userMessage)
 
     bot.reply("local-user", input).then(function(response) {
-      output.innerHTML = response
+      var botMessage = document.createElement('p')
+      botMessage.setAttribute('class', 'bot-chat')
+      botMessage.innerHTML = response
+      messageArea.appendChild(botMessage)
 
       fetch('https://marketplace.e-rob.nl/api/collections/save/conversations?token=account-311b5b245eceac5ab10804a2c0417d', {
         method: 'post',
