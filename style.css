@@ -54,6 +54,7 @@ body {
 #messages {
   width: 100%;
   padding: 80px 10px;
+  margin-bottom: 40px;
 }
 
 #sender {

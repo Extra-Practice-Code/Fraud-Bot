@@ -44,6 +44,7 @@ function startBot() {
         })
       })
     })
+    window.scrollTo(0,document.querySelector("#messages").scrollHeight);
     user_input.value = "";
   }
 }
