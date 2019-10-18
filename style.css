@@ -25,6 +25,13 @@ body {
 
 #title-bar {
   text-align: center;
+  background-color: rgb(204, 204, 204);
+  height: 4rem;
+  padding-top: 18px;
+}
+
+#title-bar h3 {
+  margin: 0;
 }
 
 #container {
@@ -43,24 +50,28 @@ body {
   display: inline-block;
   left: 0;
   bottom: 0;
-  background-color: grey;
-  height: 3rem;
-  padding: 0 10px;
+  background-color: rgb(204, 204, 204);
+  height: 4rem;
+  padding: 0 20px;
+}
+
+#sender p {
+  margin: 8px 0 0 0;
 }
 
 #user_input {
-  width: 70%;
+  width: 80%;
   border-radius: 10px;
   border: none;
-  height: 1.5rem;
+  height: 3rem;
 }
 
 #submit {
-  background-color: green;
+  background-color: rgb(55, 209, 31);
   border: none;
-  border-radius: 5px;
-  margin-right: 10px;
-  height: 1.5rem;
+  border-radius: 30px;
+  width: 15%;
+  height: 3rem;
   float: right;
 }
 
