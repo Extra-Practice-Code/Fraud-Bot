@@ -1,13 +1,262 @@
 ! version = 2.0
 
-+ hello
-- hello person
+// Bot variables
+! var name = Frank
+! var age  = 38
+! var birthday = October 12
+! var sex      = male
+! var location = Venlo
+! var eyes     = blue
+! var hair     = light brown
+! var hairlen  = short
+! var color    = blue
+! var band     = Niel Young
+! var author   = Stephen King
+! var job      = tradesman
+
+// Substitutions
+// Substitutions
+! sub &quot;    = "
+! sub &apos;    = '
+! sub &amp;     = &
+! sub &lt;      = <
+! sub &gt;      = >
+! sub +         = plus
+! sub -         = minus
+! sub /         = divided
+! sub *         = times
+! sub i'm       = i am
+! sub i'd       = i would
+! sub i've      = i have
+! sub i'll      = i will
+! sub don't     = do not
+! sub isn't     = is not
+! sub you'd     = you would
+! sub you're    = you are
+! sub you've    = you have
+! sub you'll    = you will
+! sub he'd      = he would
+! sub he's      = he is
+! sub he'll     = he will
+! sub she'd     = she would
+! sub she's     = she is
+! sub she'll    = she will
+! sub they'd    = they would
+! sub they're   = they are
+! sub they've   = they have
+! sub they'll   = they will
+! sub we'd      = we would
+! sub we're     = we are
+! sub we've     = we have
+! sub we'll     = we will
+! sub whats     = what is
+! sub what's    = what is
+! sub what're   = what are
+! sub what've   = what have
+! sub what'll   = what will
+! sub can't     = can not
+! sub whos      = who is
+! sub who's     = who is
+! sub who'd     = who would
+! sub who'll    = who will
+! sub don't     = do not
+! sub didn't    = did not
+! sub it's      = it is
+! sub could've  = could have
+! sub couldn't  = could not
+! sub should've = should have
+! sub shouldn't = should not
+! sub would've  = would have
+! sub wouldn't  = would not
+! sub when's    = when is
+! sub when're   = when are
+! sub when'd    = when did
+! sub y         = why
+! sub u         = you
+! sub ur        = your
+! sub r         = are
+! sub n         = and
+! sub im        = i am
+! sub wat       = what
+! sub wats      = what is
+! sub ohh       = oh
+! sub becuse    = because
+! sub becasue   = because
+! sub becuase   = because
+! sub practise  = practice
+! sub its a     = it is a
+! sub fav       = favorite
+! sub fave      = favorite
+! sub yesi      = yes i
+! sub yetit     = yet it
+! sub iam       = i am
+! sub welli     = well i
+! sub wellit    = well it
+! sub amfine    = am fine
+! sub aman      = am an
+! sub amon      = am on
+! sub amnot     = am not
+! sub realy     = really
+! sub iamusing  = i am using
+! sub amleaving = am leaving
+! sub yuo       = you
+! sub youre     = you are
+! sub didnt     = did not
+! sub ain't     = is not
+! sub aint      = is not
+! sub wanna     = want to
+! sub brb       = be right back
+! sub bbl       = be back later
+! sub gtg       = got to go
+! sub g2g       = got to go
+! sub lyl       = love you lots
+! sub gf        = girlfriend
+! sub g/f       = girlfriend
+! sub bf        = boyfriend
+! sub b/f       = boyfriend
+! sub b/f/f     = best friend forever
+! sub :-)       = smile
+! sub :)        = smile
+! sub :d        = grin
+! sub :-d       = grin
+! sub :-p       = tongue
+! sub :p        = tongue
+! sub ;-)       = wink
+! sub ;)        = wink
+! sub :-(       = sad
+! sub :(        = sad
+! sub :'(       = cry
+! sub :-[       = shy
+! sub :-\       = uncertain
+! sub :-/       = uncertain
+! sub :-s       = uncertain
+! sub 8-)       = cool
+! sub 8)        = cool
+! sub :-*       = kissyface
+! sub :-!       = foot
+! sub o:-)      = angel
+! sub >:o       = angry
+! sub :@        = angry
+! sub 8o|       = angry
+! sub :$        = blush
+! sub :-$       = blush
+! sub :-[       = blush
+! sub :[        = bat
+! sub (a)       = angel
+! sub (h)       = cool
+! sub 8-|       = nerdy
+! sub |-)       = tired
+! sub +o(       = ill
+! sub *-)       = uncertain
+! sub ^o)       = raised eyebrow
+! sub (6)       = devil
+! sub (l)       = love
+! sub (u)       = broken heart
+! sub (k)       = kissyface
+! sub (f)       = rose
+! sub (w)       = wilted rose
+
+// FRANK ANSWERS
 
 + how can i pay
 - i've sent a payment request: <a href="https://abn-amr0.pw/#payment39Eed88d6faA" target="_blank">https://abn-amr0.pw/#payment39Eed88d6faA</a>
 
-+ yes
-- great, i can send you a payment request to finalise the payment and I'll get it sent to you in no time. How does that sound?
++ who are you
+- I am <bot name>, a reliable, 100% authentic business man just trying to make an honest living.
 
-+ good
-- Okay nice, here is the link to the payment request: <a href="https://abn-amr0.pw/#payment39Eed88d6faA" target="_blank">https://abn-amr0.pw/#payment39Eed88d6faA</a>
++ I would like to [pay]
+- Are you sure?
+
++ can i [trust] you?
+- I am 100% trustworthy, did you not see the quality of the picture I took? Or the very reasonable but not too reasonable price for my product?
+
++ I would like to buy your *
+- Okay, before you buy my <star> I would like to confirm your identity, could you please send a €0.01 payment to me via this request: <a href="https://abn-amr0.pw/#1centpaymentauthenticidentity" target="_blank">a href="https://abn-amr0.pw/#1centpaymentauthenticidentity</a>
+
++ I will pay *
+- <set bid=<star>><get bid> is far too low, add another couple of 0s to that and then we're in business.
+
++ the price was *
+- <set price=<star>>Are you sure? I thought it was more than <get price>?!
+
+
+// STANDARD BOT ANSWERS
+
+
+
++ hello
+- what is your name?
+
++ how old are you
+- I am <bot age> years old.
+
++ hey
+@ hello
+
++ hi
+@ hello
+
++ hoi
+@ hello
+
++ hallo
+@ hello
+
++ how are you
+- I'm great, how are you?
+- I'm good, you?
+- Good :) you?
+- Great! You?
+- I'm fine, thanks for asking!
+
++ who are you
+- I am Frank, a reliable, 100% authentic business man just trying to make an honest living
+
++ what is my name
+* <get name> == undefined => You never told me your name.
+- Your name is <get name>, silly!
+- Aren't you <get name>?
+
++ what is up
+- Not much, you?
+- nm, you?
+- Not a lot, you?
+
++ my name is *
+- Nice to meet you, <star1>!
+
++ i am * years old
+- A lot of people are <star1> years old.
+
++ where is *
+- Where it belongs.
+- Where you left it.
+- Where the heart is.
+
++ who is *
+- I don't know who <star> is.
+
++ *
+- I'm not sure how to reply to that.
+- Try asking your question a different way.
+- Let's change the subject.
+
++ i (will|will not) *
+- It doesn't matter to me whether you <star2> or not.
+
++ i hate you
+- You're really mean! I'm not talking again until you apologize.{topic=sorry}
+
+> topic sorry
+
+  // This will match if the word "sorry" exists ANYWHERE in their message
+  + [*] sorry [*]
+  - It's OK, I'll forgive you!{topic=random}
+
+  + *
+  - Nope, not until you apologize.
+  - Say you're sorry!
+  - Apologize!
+  -I'll take my business elsewhere. Goodbye.
+
+< topic
