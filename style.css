@@ -52,36 +52,41 @@ body {
   bottom: 0;
   background-color: rgb(204, 204, 204);
   height: 4rem;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 #sender p {
   margin: 8px 0 0 0;
+  font-size: 16px;
 }
 
 #user_input {
-  width: 80%;
-  border-radius: 10px;
+  width: 75%;
+  border-radius: 30px;
   border: none;
   height: 3rem;
+  font-size: 18px;
 }
 
 #submit {
   background-color: rgb(55, 209, 31);
   border: none;
-  border-radius: 30px;
-  width: 15%;
+  border-radius: 40px;
+  width: 19%;
   height: 3rem;
   float: right;
+  font-size: 18px;
 }
 
 .user-chat {
   text-align: right;
   display: block;
   width: 100%;
+  font-size: 18px;
 }
 
 .bot-chat {
   display: block;
   width: 60%;
+  font-size: 18px;
 }
