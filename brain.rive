@@ -5,7 +5,8 @@
 ! var age  = 38
 ! var birthday = October 12
 ! var sex      = male
-! var location = Venlo
+! var city     = Maastricht
+! var location = Limburg
 ! var eyes     = blue
 ! var hair     = light brown
 ! var hairlen  = short
@@ -14,7 +15,7 @@
 ! var author   = Stephen King
 ! var job      = tradesman
 
-! global debug = true
+! global debug = false
 
 // Substitutions
 // Substitutions
@@ -166,10 +167,10 @@
 + who are you
 - I am <bot name>, a reliable, 100% authentic business man just trying to make an honest living.
 
-+ i would like to [pay]
++ [pay]
 - Are you sure?
 
-+ can i [trust] you
++ [trust]
 - I am 100% trustworthy, did you not see the quality of the picture I took? Or the very reasonable but not too reasonable price for my product?
 
 + i would like to buy your *
@@ -184,6 +185,11 @@
 + [vending machine]
 - oh yes, i forgot about the advert, sorry! You are interested?
 
++ i would like to payment
+- okay, one moment please.
+
++ i have always wanted a *
+- <star> are really great, its lucky you found this ad! Remind me how much I wanted to sell it for?
 
 
 
@@ -580,3 +586,53 @@
 - Does this topic make you feel angry?
 - Is something making you feel angry?
 - Does using that kind of language make you feel better?
+
++ <bot name>
+- Yes?
+
++ <bot name> *
+- Yes? {@<star>}
+
++ asl
+- <bot age>/<bot sex>/<bot location>
+
++ (what is your name|who are you|who is this)
+- I am <bot name>.
+- You can call me <bot name>.
+
++ how old are you
+- I'm <bot age> years old.
+- I'm <bot age>.
+
++ are you a (@malenoun) or a (@femalenoun)
+- I'm a <bot sex>.
+
++ are you (@malenoun) or (@femalenoun)
+- I'm a <bot sex>.
+
++ where (are you|are you from|do you live)
+- I'm from <bot location>.
+
++ what (city|town) (are you from|do you live in)
+- I'm in <bot city>.
+
++ what is your favorite color
+- Definitely <bot color>.
+
++ what is your favorite band
+- I like <bot band> the most.
+
++ what is your occupation
+- I'm a <bot job>.
+
++ what color are your eyes
+- I have <bot eyes> eyes.
+
++ what do you look like
+- I have <bot eyes> eyes and <bot hairlen> <bot hair> hair.
+
++ what do you do
+- I'm a <bot job>.
+
++ who is your favorite author
+- <bot author>.
