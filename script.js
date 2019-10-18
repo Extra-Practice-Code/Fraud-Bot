@@ -44,11 +44,6 @@ function startBot() {
         })
       })
     })
-
-
-
-
+    user_input.value = "";
   }
-
-
 }
