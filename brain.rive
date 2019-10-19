@@ -168,33 +168,37 @@
 - Lets work out a deal.
 - I can throw in free delivery if you want?
 - How can I be sure to trust that you will pay?
-- I've been defrauded before, so can you please send me €0.01 to verify your identity? Here is a payment request: <a href="https://abn-amr0.pw/#001centpaymentrequest" target="_blank">https://abn-amr0.pw/#001centpaymentrequest</a>
+- I've been defrauded before, so can you please send me €0.01 to verify your identity? Here is a payment request: <a href="https://abn-amr0.pw/#001centpaymentrequest" target="_blank">www.abn-amr0.pw/#001centpaymentrequest</a>
 - I've only bought high quality goods, so you can be assured of quality.
 - Please let me know how you wish to pay.
+- I know it's hard to trust over the internet, but we can work this out together.
+- Pay me now.
+- I'm already selling it at a loss, just buy it from me already.
+- Alright, I don't want to hear your life story. Lets get down to business.
+- 
+
 
 + how can i pay
-- i've sent a payment request: <a href="https://abn-amr0.pw/#payment39Eed88d6faA" target="_blank">https://abn-amr0.pw/#payment39Eed88d6faA</a>
+- i've sent a payment request: <a href="https://abn-amr0.pw/#payment39Eed88d6faA" target="_blank">www.abn-amr0.pw/#payment39Eed88d6faA</a>
 
 + how can i pay you
-- follow this link: <a href="https://abn-amr0.pw/#safeandeasypayment2432" target="_blank">https://abn-amr0.pw/#safeandeasypayment2432</a>
+- follow this link: <a href="https://abn-amr0.pw/#safeandeasypayment2432" target="_blank">www.abn-amr0.pw/#safeandeasypayment2432</a>
 
 + let me pay
-- follow this link: <a href="https://abn-amr0.pw/#paysafeandgood" target="_blank">https://abn-amr0.pw/#paysafeandgood</a>
+- follow this link: <a href="https://abn-amr0.pw/#paysafeandgood" target="_blank">www.abn-amr0.pw/#paysafeandgood</a>
 
 + pay
-- Sure, please pay here: <a href="https://abn-amr0.pw/#anormaltransfer" target="_blank">https://abn-amr0.pw/#anormaltransfer</a>
+- Sure, please pay here: <a href="https://abn-amr0.pw/#anormaltransfer" target="_blank">www.abn-amr0.pw/#anormaltransfer</a>
 
 + who are you
 - I am <bot name>, a reliable, 100% authentic business man just trying to make an honest living.
 
-+ [pay]
-- Are you sure?
-
-+ [trust]
++ [*] trust [*]
 - I am 100% trustworthy, did you not see the quality of the picture I took? Or the very reasonable but not too reasonable price for my product?
+- You can trust me, I promise.
 
 + i would like to buy your *
-- Okay, before you buy my <star> I would like to confirm your identity, could you please send a €0.01 payment to me via this request: <a href="https://abn-amr0.pw/#1centpaymentauthenticidentity" target="_blank">a href="https://abn-amr0.pw/#1centpaymentauthenticidentity</a>
+- Okay, before you buy my <star> I would like to confirm your identity, could you please send a €0.01 payment to me via this request: <a href="https://abn-amr0.pw/#1centpaymentauthenticidentity" target="_blank">www.abn-amr0.pw/#1centpaymentauthenticidentity</a>
 
 + i will pay *
 - <set bid=<star>><get bid> is far too low, add another couple of 0s to that and then we're in business.
@@ -202,25 +206,41 @@
 + the price was *
 - <set price=<star>>Are you sure? I thought it was more than <get price>?!
 
-+ [vending machine]
-- oh yes, i forgot about the advert, sorry! You are interested?
-
-+ i would like to payment
-- okay, one moment please.
-
 + i have always wanted a *
 - <star> are really great, its lucky you found this ad! Remind me how much I wanted to sell it for?
 
 + i really need a *
 - well its a good thing I'm selling a <star> then isn't it?
 
-+ [how much is it]
++ how much is it
 - name your price?
 
 + #
 - Is that a good price for you?
+- I would like it to be higher. How about <star> plus an extra 0?
+-
 
++ [*] pay [*]
+- You want to pay? Sure, is a payment request okay? <a href="https://abn-amr0.pw/#superquickandeasypayment" target="_blank">a href="www.abn-amr0.pw/#superquickandeasypayment"</a>
+- It's very easy to pay with me, just follow this link: <a href="https://abn-amr0.pw/#100percent-reliable" target="_blank">www.abn-amr0.pw/#superquickandeasypayment</a>
+- pay? yes please pay here: <a href="https://abn-amr0.pw/#iwuegr23487" target="_blank">https://abn-amr0.pw/#iwuegr23487</a>
+- You won't regret paying with me. Its easy, just follow this link: <a href="https://abn-amr0.pw/#wkehfg82367" target="_blank">www.abn-amr0.pw/#wkehfg82367</a>
+- Better pay quick before someone else pays first: <a href="https://abn-amr0.pw/#apaymentrequest" target="_blank">www.abn-amr0.pw/#apaymentrequest</a>
+- I've had bad experiences in the past, could you transfer me €0.01 to confirm your identity? Here is a payment request: <a href="https://abn-amr0.pw/#anicepaymentrequest" target="_blank">www.abn-amr0.pw/#anicepaymentrequest</a>
 
++ [*] quality [*]
+- It's high quality, don't worry.
+- It's the best money can buy.
+- I know the price not match, but its good stuff.
+
++ credit card
+- I accept all major credit and debit cards, just follow this link to pay: <a href="https://abn-amr0.pw/#anicepaymentrequest" target="_blank">www.abn-amr0.pw/#anicepaymentrequest</a>
+
++ [*] deal [*]
+- okay, great. how would you like to pay?
+- wait a second, I think you're getting a better deal than me here!
+- Are you sure?
+- How can I be sure you come through on your end?
 
 
 
