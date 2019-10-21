@@ -64,12 +64,12 @@ body {
   left: 0;
   bottom: 0;
   background-color: rgb(204, 204, 204);
-  height: 4rem;
+  height: 4.5rem;
   padding: 0 10px;
 }
 
 #sender p {
-  margin: 8px 0 0 0;
+  margin: 12px 0 0 0;
   font-size: 16px;
 }
 
