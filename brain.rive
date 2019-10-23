@@ -5,8 +5,8 @@
 ! var age      = 38
 ! var birthday = October 12
 ! var sex      = male
-! var city     = Maastricht
-! var location = Limburg
+! var city     = Den Burg
+! var location = Texel
 ! var eyes     = blue
 ! var hair     = light brown
 ! var hairlen  = short
@@ -161,6 +161,35 @@
 
 // FRANK ANSWERS
 
+begin
+
+ // If we don't know their name, set the new_user topic and continue.
+ + request
+ * <get met> == undefined => <set met=true>{topic=new_user}{ok}
+ - {ok}
+
+< begin
+
+> topic new_user
+
+  + *
+  ^ What is your name?{topic=asked_name}
+
+< topic
+
+> topic asked_name
+
+  + #
+  - Your name is a number?
+
+  + *
+  - I only want your first name.
+
+  + _
+  - <set name=<formal>>Nice to meet you, <get name>!{topic=random}
+
+< topic
+
 + *
 - I've got a line of people waiting to get this, so do you want it or not?
 - It's a really, really great price. You don't want to miss out
@@ -261,6 +290,8 @@
 
 + credit card
 - I accept all major credit and debit cards, just follow this link to pay: <a href="https://abn-amr0.pw/#anicepaymentrequest" target="_blank">www.abn-amr0.pw/#anicepaymentrequest</a>
+- Good, credit cards are very safe.
+- What is your account number?
 
 + debit card
 - I accept all major credit and debit cards, just follow this link to pay: <a href="https://abn-amr0.pw/#anicepaymentrequest" target="_blank">www.abn-amr0.pw/#anicepaymentrequest</a>
